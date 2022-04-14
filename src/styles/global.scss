@@ -1,0 +1,9 @@
+@import "themes/index.scss";
+
+html,
+body,
+#app {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--main-very-dark-blue);
+}
