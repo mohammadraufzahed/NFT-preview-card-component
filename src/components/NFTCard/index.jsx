@@ -6,7 +6,7 @@ const NFTCard = () => {
   return (
     <div className={classes.container}>
       <figure className={classes.nft_picture}>
-        <img src="/image-equilibrium.jpg" />
+        <img src="/image-equilibrium.jpg" alt="NFT Picture" />
       </figure>
       <strong className={classes.title}>Equilibrium #3429</strong>
       <p className={classes.description}>
@@ -23,7 +23,7 @@ const NFTCard = () => {
       </div>
       <div className={classes.creator_container}>
         <figure className={classes.creator_picture}>
-          <img src="/image-avatar.png" />
+          <img src="/image-avatar.png" alt="Creator Picture" />
         </figure>
         <span clsasName={classes.creator_about}>
           Creation of <span>Jules Wyvern</span>

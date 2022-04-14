@@ -2,8 +2,8 @@ import NFTCard from "./components/NFTCard";
 
 export function App(props) {
   return (
-    <div>
+    <main>
       <NFTCard />
-    </div>
+    </main>
   );
 }
